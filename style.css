@@ -1,0 +1,41 @@
+
+:root {
+  --primary: #ff5900;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+}
+
+/*nav bar*/
+.home-navbar {
+  background-color: var(--primary);
+}
+
+.nav-home {
+  color: white;
+} 
+
+.nav-item .nav-link {
+  color: white;
+}
+
+
+/*carousel*/
+.carousel-item img{
+  height: 80vh;
+  object-fit: cover;
+}
+
+/*cards*/
+
+
+
+.card-link {
+  color: var(--primary);
+  background-color: transparent;
+  border: none;
+  margin-left: 0;
+
+}
