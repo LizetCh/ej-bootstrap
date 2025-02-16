@@ -33,6 +33,30 @@ body {
   object-fit: cover;
 }
 
+/*info cards*/
+.card-stats {
+  background-color: var(--primary);
+  border: none;
+}
+.card-stats .card-body{
+  background-color: var(--primary);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.card-stats .card-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Sharp Sans';
+  
+}
+.card-stats .card-text {
+  text-align: center;
+  
+}
+
 /*cards*/
 
 
