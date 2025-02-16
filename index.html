@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding: 0;">
     <div class="home-navbar container-fluid" style="padding: 0 70px;">
       
       
@@ -82,18 +83,17 @@
   </nav>
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-    <div class="container-fluid">
+    <div class="container-fluid" style="display:flex; justify-content: space-between;">
       <a class="navbar-brand" href="#"><img src="./img/anahuac-logo.svg" style="width: 18rem; margin-left: 50px;"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       <button type="button" class="btn btn-light nav-item">Contacta un asesor</button>
-       <button class="nav-item">Inicia tu proceso de admisión</button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0;">
+       <button type="button" class="btn btn-light nav-item" id="liveAlertBtn">Contacta un asesor</button>
+       <button class="btn btn-primary nav-item">Inicia tu proceso de admisión</button>
       </div>
     </div>
   </nav>
-
 
 
     <!--CAROUSSEL-->
@@ -158,3 +158,5 @@
 
 </body>
 </html>
+
+
